@@ -1,0 +1,247 @@
+/* InicioPage */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abona{
+    background-color: #630000;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+.buscador{
+    border: none;
+}
+.buscadorEstilo input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.buscadorEstilo{
+    
+    box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px,
+		rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
+		rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+    border: none;
+}
+.logoCerveza{
+    max-width: 200px;
+    margin-left: 150px;
+    vertical-align: bottom;
+    
+    
+    
+}
+
+.navegacion{
+    width: 97%;
+    margin: auto;
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.crearCuenta{
+    margin-left: 100px;
+    margin-bottom: 80px;
+    margin-right: 10px;
+    margin-top: 9px;
+    
+}
+.carritoIniciar{
+    display: flex;
+    
+}
+
+
+.carritoCompras{
+    width: 40px;
+    margin-left: 2px;
+    margin-bottom: 80px;
+    transition: all 0.3s;
+
+}
+.carritoCompras img:hover{
+    transform: scale(1.2);
+}
+.contenedora{
+    text-align: center;
+}
+.barraDeNavegacion{
+    background-color: rgb(0, 0, 0);
+    padding: 25px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+
+    
+
+}
+
+
+.barraDeNavegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.nosotrosPage a{
+    text-decoration: none;
+    color: white
+}
+
+
+
+
+
+/* MAIN */
+.trioImg{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.fotoUno img{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 269px;
+}
+
+section h3{
+    font-weight: 900;
+}
+.servicios{
+    display: flex;
+    justify-content: space-between;
+}
+.iconos  img{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-top: 1px;
+}
+
+
+
+
+
+/* FOOTER */
+
+.redesSociales{
+    text-align: center;
+    
+}
+footer{
+    background-color: #630000;
+    padding: 10px;
+
+}
+
+/* NosotrosPage */
+
+
+
+.nosotrosPage{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.barraSubtitulo{
+    background-color: #630000;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+    
+}
+.textoNosotros{
+    text-align: center;
+    margin-top: 75px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    margin-left: 200px;
+    font-size: 25px;
+    text-justify: distribute;
+
+}
+
+
+/* ContactoPage */
+.tituloAsesoramiento{
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 25px;
+    
+}
+.mainContacto{
+    display: flex;
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-bottom: 180px;
+    margin-left: 25px;
+    font-size: 25px;
+    justify-content: space-around;   
+}
+.interlineado{
+    line-height: 60px;
+}
+.iconosSociales{
+    display: flex;
+    margin-right: 100px;
+    
+}
+.iconoContacto{
+    width: 20px;
+    margin-top: 7px;
+    margin-right: 15px;
+}
+.mapa {
+    margin-right: 50px;
+    margin-left: 10px;
+    display: flex;
+    width: 500px;
+}
+
+
+/* InsumosPage */
+.sectionInsumos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.insumos img{
+    width: 100%;
+    border: 3px solid black;
+}
+.descripcionImg{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+
+
+@media (max-width:768px){
+    
+}
