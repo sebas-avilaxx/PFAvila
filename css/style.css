@@ -4,27 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+.resolucion{
+    width: 100vw;
+}
 .abona{
+    width: 100v;
     background-color: #630000;
     color: white;
     text-align: center;
     font-size: 20px;
     padding: 10px;
+    
 }
 .buscador{
     border: none;
 }
 .buscadorEstilo input{
-    border-top: none;
-    border-right: none;
-    border-left: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid silver;
 }
 .buscadorEstilo{
     
-    box-shadow: rgba(255, 255, 255, 0.5) -8px -8px 15px,
-		rgba(0, 0, 0, 0.1) 10px 10px 10px,
-		rgba(255, 255, 255, 0.5) -8px -8px 15px inset,
-		rgba(0, 0, 0, 0.1) 10px 10px 10px inset;
+    box-shadow:
     border: none;
 }
 .logoCerveza{
@@ -88,9 +92,12 @@
     text-decoration: none;
     color: white;
     font-size: 22px;
-    padding: 60px;
+    padding: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+}
+.barraDeNavegacion a:hover{
+    color: #df8816;
 }
 
 .nosotrosPage a{
@@ -124,13 +131,35 @@ section h3{
 }
 .servicios{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    width: 97%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    padding: 25px;
+    font-size: 22px;
 }
-.iconos  img{
+.contenedoraServicios{
+    display: flex;
+    width: 97%;
+    justify-content: space-around;
+}
+.bannerUbicacion{
+    display: flex;
+
+}
+.icono  img{
     display: flex;
     flex-direction: row;
-    width: 100px;
-    margin-top: 1px;
+    width: 50px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.margen{
+    border-style: solid;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+
 }
 
 
@@ -157,6 +186,10 @@ footer{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+.nosotrosPage a:hover{
+    color: #df8816;
+    
+}
 .barraSubtitulo{
     background-color: #630000;
     text-decoration: none;
@@ -180,7 +213,7 @@ footer{
 
 /* ContactoPage */
 .tituloAsesoramiento{
-    margin-left: 20px;
+    margin-left: 100px;
     margin-top: 30px;
     font-size: 25px;
     
@@ -207,6 +240,10 @@ footer{
     margin-top: 7px;
     margin-right: 15px;
 }
+.iconoContacto:hover{
+    transform: scale(1.2);
+    transition: transform 200ms ;
+}
 .mapa {
     margin-right: 50px;
     margin-left: 10px;
@@ -228,12 +265,39 @@ footer{
     width: 100%;
     border: 3px solid black;
 }
+.insumos img:hover{
+    transform: scale(1.05);
+    transition: transform 200ms ;
+}
 .descripcionImg{
     font-size: 30px;
     justify-content: center;
     text-align: center;
     margin-right: 20px;
 
+}
+.descripcionImg:hover{
+    transform: scale(1.05);
+    transition: transform 200ms ;
+    }
+
+}
+.buscadorDos{
+    position: relative;
+    display: flex;
+    left: 350px;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+.buscadorEstiloDos input{
+    display: none;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid silver;
 }
 
 
@@ -242,6 +306,174 @@ footer{
 
 
 
-@media (max-width:768px){
+
+
+
+
+
+
+
+
+@media (max-width:1008px){
+    .barraDeNavegacion{
+        gap: 20px   ;
+        text-align: center;
+        flex-direction: column;
+
+    }
+    .barraDeNavegacion a{
+        padding: 20px;
+    }
+    .logoCerveza{
+        width: 175px;
+    }
+    .carritoIniciar{
+        width: ;
+    }
+}
+@media (max-width:935px){
+    .fondoBuscadorDos{
+        padding: 10px;
+        
+    }
+    .buscadorEstiloDos input{
+        display: block;
+        padding: 10px;
+        height: 10px;
+    }
     
+    .buscador{
+        display: none;
+    }
+    .sectionInsumos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        gap: 30px; 
+    }
+    .carritoIniciar{
+        
+    }
+    .crearCuenta{ 
+        font-size: 12px;
+        margin-block-end: 20px;    
+    }
+    .insumos img{
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .tituloAsesoramiento{
+        justify-content: center;
+    }
+}   
+
+@media (max-width:814px){
+    .buscador{
+        display: none;
+    }
+    .crearCuenta{
+        font-size: 12px;
+    }
+    .carritoCompras{
+        width: 35px;
+    }
+    .tituloAsesoramiento{
+        align-items: center;
+        margin-block-start: 5px;
+    }
+}
+@media (max-witdh:675px){
+    .crearCuenta{
+        font-size: 20px;
+        justify-content: space-around;
+        margin-right: 40px;
+    }
+    .carritoCompras{
+        width: 30px;
+    }
+    .carritoIniciar{
+        position: relative;
+        margin-left: 20px;
+        right: 20px;
+    }
+}
+@media (max-width:640px){
+    .textoNosotros{
+        text-align: center;
+        margin-top: 50px;
+        margin-right: 100px;
+        margin-bottom: 100px;
+        margin-left: 100px;
+        font-size: 20px;
+        text-justify: distribute;
+    }
+}
+@media (max-width:578px){
+    .navegacion{
+        width: 100%;
+    }
+    .logoCerveza{
+        width: 120px;
+        position: relative;
+        right: 140px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carritoIniciar{
+        position: relative;
+        display: flex;
+        right: 160px;
+        width: 100%;
+    }
+    .crearCuenta{
+        flex-direction: column;
+        position: relative;
+        right: 60px;
+        left: 5px;
+        margin-left: 50px;
+        font-size: 10px;
+        text-justify: auto;
+    }
+    .carritoCompras{
+        position: relative;
+        left: 15px;
+    }
+    .sectionInsumos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        gap: 15px;
+    }
+    .insumos img{
+        width: 200px;
+    }
+    .descripcionImg{
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10px;
+    }
+}
+@media (max-width:520px){
+    .crearCuenta{
+        font-size: px;
+    }
+    .textoNosotros{
+        text-align: center;
+        margin-top: 35px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        font-size: 18px;
+        text-justify: distribute;
+    }
 }
