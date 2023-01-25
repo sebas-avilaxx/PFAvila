@@ -1,0 +1,51 @@
+@media (max-width:578px){
+    .navegacion{
+        width: 100%;
+    }
+    .logoCerveza{
+        width: 120px;
+        position: relative;
+        right: 140px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carritoIniciar{
+        position: relative;
+        display: flex;
+        right: 160px;
+        width: 100%;
+    }
+    .crearCuenta{
+        flex-direction: column;
+        position: relative;
+        right: 60px;
+        left: 5px;
+        margin-left: 50px;
+        font-size: 10px;
+        text-justify: auto;
+    }
+    .carritoCompras{
+        position: relative;
+        left: 15px;
+    }
+    .sectionInsumos{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        gap: 15px;
+    }
+    .insumos img{
+        width: 200px;
+    }
+    .descripcionImg{
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+        margin-right: 10px;
+    }
+}

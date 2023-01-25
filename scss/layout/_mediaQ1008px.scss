@@ -1,0 +1,15 @@
+@media (max-width:1008px){
+    header{
+        ul{
+            gap: 20px;
+            text-align: center;
+            flex-direction: column;
+        }
+        li{
+            padding: 20px;
+        }
+        .logoCerveza{
+            width: 175px;
+        }
+    }
+}

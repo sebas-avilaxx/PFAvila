@@ -1,0 +1,39 @@
+@media (max-width:935px){
+    header{
+            section.buscador{
+                display: none;
+            }
+            div.fondoBuscadorDos{
+                padding: 10px;
+            }
+                div.buscadorEstiloDos input{
+                    display: block;
+                    padding: 10px;
+                    height: 10px;
+                }
+                .crearCuenta{ 
+                    font-size: 12px;
+                    margin-block-end: 20px;    
+                }
+        }
+    main{
+        nav.sectionInsumos{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            gap: 30px;
+            .insumos img{
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
+
+
+    .tituloAsesoramiento{
+        justify-content: center;
+    }
+}

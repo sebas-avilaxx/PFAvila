@@ -1,0 +1,73 @@
+header{
+    .abona{
+        background-color: #630000;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+    }
+        nav{
+            width: 97%;
+            margin: auto;
+            display: flex;
+            font-size: 15px;
+            justify-content: space-between;
+            align-items: center;
+                div{
+                    input{
+                    border-radius: 30px;
+                    padding: 0 20px;
+                    font-size: 15px;
+                    outline: none;
+                    border: 1px solid silver;
+                    }
+                }    
+        div{
+            .logoCerveza{
+            max-width: 200px;
+            margin-left: 150px;
+            vertical-align: bottom;
+            }
+        }
+        div{
+            display: flex;
+                .crearcuenta{
+                margin-left: 100px;
+                margin-bottom: 80px;
+                margin-right: 10px;
+                margin-top: 9px;
+                }
+                .carritoCompras{
+                    width: 40px;
+                    margin-left: 2px;
+                    margin-bottom: 80px;
+                    transition: all 0.3s;
+                }
+            
+            }
+            }
+            
+    .contenedora{
+        text-align: center;
+        width: 100%;
+        .barraDeNavegacion{
+            background-color: rgb(0, 0, 0);
+            padding: 25px;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+        }
+        .barraDeNavegacion a{
+                text-decoration: none;
+                color: white;
+                font-size: 22px;
+                padding: 40px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                &:hover{
+                    color: #df8816;
+                }
+            }
+    }
+    
+        }

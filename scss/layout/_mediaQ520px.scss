@@ -1,0 +1,34 @@
+@media (max-width:520px){
+    header{
+        section.buscador{
+            display: none;
+        }
+        div.fondoBuscadorDos{
+            padding: 10px;
+        }
+            div.buscadorEstiloDos input{
+                display: block;
+                padding: 10px;
+                height: 10px;
+            }
+            .crearCuenta{ 
+                font-size: 10px;
+                    
+            }
+            .carritoIniciar{
+                position: relative;
+                display: flex;
+                right: 90px;
+                width: 100%;
+            }
+        }
+    .textoNosotros{
+        text-align: center;
+        margin-top: 35px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        font-size: 18px;
+        text-justify: distribute;
+    }
+}
