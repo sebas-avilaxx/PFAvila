@@ -33,7 +33,39 @@
     }
 
 
-    .tituloAsesoramiento{
-        justify-content: center;
+
+    main{
+        div.tituloAsesoramiento{
+            margin-left: 70px;
+            margin-top: 25px;
+            font-size: 20px;
+        }
+        section.mainContacto{
+            display: flex;
+            margin-top: 60px;
+            margin-right: 80px;
+            margin-bottom: 160px;
+            margin-left: 20px;
+            font-size: 20px;
+            justify-content: space-around;
+            section.interlineado{
+                line-height: 60px;
+                div.iconosSociales{
+                    display: flex;
+                    margin-right: 80px;
+                    .iconoContacto{
+                        width: 18px;
+                        margin-top: 6px;
+                        margin-right: 13px;
+                    }
+                }
+            }
+        iframe.mapa{
+            margin-right: 50px;
+            margin-left: 10px;
+            width: 350px;
+        }    
+        }
+        
     }
 }

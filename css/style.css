@@ -30,6 +30,7 @@ header nav div .logoCerveza {
   max-width: 200px;
   margin-left: 150px;
   vertical-align: bottom;
+  justify-content: center;
 }
 header nav div {
   display: flex;
@@ -69,12 +70,18 @@ header .contenedora .barraDeNavegacion a:hover {
   color: #df8816;
 }
 
-main .trioImg {
+main section.trioImg {
   display: flex;
   width: 100%;
   justify-content: center;
   margin-top: 0px;
   margin-bottom: 50px;
+}
+main section.trioImg div.fotoUno img {
+  width: 450px;
+}
+main section.trioImg div.fotoDos img {
+  width: 450px;
 }
 main .servicios {
   display: flex;
@@ -187,13 +194,13 @@ main section.mainContacto iframe.mapa {
   width: 500px;
 }
 
-div.textoNstros .textoNosotros {
+.textoNosotros {
   text-align: center;
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-bottom: 100px;
-  margin-left: 100px;
-  font-size: 20px;
+  margin-top: 140px;
+  margin-right: 200px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+  font-size: 25px;
   text-justify: distribute;
 }
 
@@ -217,6 +224,27 @@ div.textoNstros .textoNosotros {
   }
   header .logoCerveza {
     width: 175px;
+  }
+  main section.trioImg {
+    display: flex;
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  main section.trioImg div.fotoUno img {
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  main section.trioImg div.fotoDos img {
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    width: 100%;
   }
 }
 @media (max-width: 935px) {
@@ -248,8 +276,95 @@ div.textoNstros .textoNosotros {
     width: 100%;
     justify-content: center;
   }
-  .tituloAsesoramiento {
-    justify-content: center;
+  main div.tituloAsesoramiento {
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  main section.mainContacto {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 80px;
+    margin-bottom: 160px;
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+  }
+  main section.mainContacto section.interlineado {
+    line-height: 60px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales {
+    display: flex;
+    margin-right: 80px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales .iconoContacto {
+    width: 18px;
+    margin-top: 6px;
+    margin-right: 13px;
+  }
+  main section.mainContacto iframe.mapa {
+    margin-right: 50px;
+    margin-left: 10px;
+    width: 350px;
+  }
+}
+@media (max-width: 814px) {
+  .textoNosotros {
+    text-align: center;
+    margin-top: 35px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+    text-justify: distribute;
+  }
+  .sectionInsumos .insumos img {
+    width: 90px;
+    font-size: 12px;
+  }
+  main div.tituloAsesoramiento {
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  main section.mainContacto {
+    margin-top: 60px;
+    margin-right: 80px;
+    margin-bottom: 160px;
+    margin-left: 20px;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: space-around;
+  }
+  main section.mainContacto section.interlineado {
+    line-height: 60px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales {
+    display: flex;
+    margin-right: 80px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales .iconoContacto {
+    width: 18px;
+    margin-top: 6px;
+    margin-right: 13px;
+  }
+  main section.mainContacto iframe.mapa {
+    margin-right: 40px;
+    margin-left: 8px;
+    width: 500px;
+  }
+  section.servicios {
+    margin-top: 25px;
+  }
+  section.servicios div.contenedoraServicios section.bannerUbicacion {
+    flex-direction: column;
+    gap: 10px;
+  }
+  section.servicios div.contenedoraServicios section.bannerUbicacion div.icono img {
+    width: 30px;
+  }
+  section.servicios div.contenedoraServicios section.bannerUbicacion div.margen {
+    border-style: none;
   }
 }
 @media (max-witdh: 675px) {
@@ -265,6 +380,10 @@ div.textoNstros .textoNosotros {
     position: relative;
     margin-left: 20px;
     right: 20px;
+  }
+  main section.trioImg div.fotoDos {
+    width: 200px;
+    height: 200px;
   }
 }
 @media (max-width: 640px) {
@@ -294,6 +413,85 @@ div.textoNstros .textoNosotros {
     align-items: center;
     justify-content: center;
   }
+  main section.trioImg div.fotoUno {
+    display: none;
+  }
+}
+@media (max-width: 578px) {
+  .navegacion {
+    width: 100%;
+  }
+  .logoCerveza {
+    width: 120px;
+    position: relative;
+    right: 140px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .carritoIniciar {
+    display: flex;
+    width: 100%;
+  }
+  .crearCuenta {
+    flex-direction: column;
+    position: relative;
+    right: 60px;
+    left: 5px;
+    margin-left: 50px;
+    font-size: 10px;
+    text-justify: auto;
+  }
+  .sectionInsumos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+  }
+  .insumos img {
+    width: 200px;
+  }
+  .descripcionImg {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+  }
+  main div.tituloAsesoramiento {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  main section.mainContacto {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 80px;
+    margin-bottom: 160px;
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+  }
+  main section.mainContacto section.interlineado {
+    line-height: 30px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales {
+    display: flex;
+    margin-right: 40px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales .iconoContacto {
+    width: 15px;
+    margin-top: 5px;
+    margin-right: 11px;
+  }
+  main section.mainContacto iframe.mapa {
+    margin-right: 50px;
+    margin-left: 10px;
+    width: 300px;
+  }
 }
 @media (max-width: 520px) {
   header section.buscador {
@@ -309,12 +507,20 @@ div.textoNstros .textoNosotros {
   }
   header .crearCuenta {
     font-size: 10px;
+    margin-left: 1px;
+    display: none;
   }
   header .carritoIniciar {
     position: relative;
     display: flex;
-    right: 90px;
+    justify-content: flex-end;
+    top: 20px;
+    right: 30px;
     width: 100%;
+  }
+  header .carritoIniciar .carritoCompras img {
+    text-align: end;
+    width: 50px;
   }
   .textoNosotros {
     text-align: center;
@@ -324,6 +530,55 @@ div.textoNstros .textoNosotros {
     margin-left: 50px;
     font-size: 18px;
     text-justify: distribute;
+  }
+  main nav.sectionInsumos {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+  }
+  main nav.sectionInsumos .insumos img {
+    width: 250px;
+    justify-content: center;
+  }
+  main nav.sectionInsumos .insumos img .descripcionImg {
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+  }
+  main div.tituloAsesoramiento {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  main section.mainContacto {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 80px;
+    margin-bottom: 160px;
+    margin-left: 20px;
+    font-size: 20px;
+    justify-content: space-around;
+  }
+  main section.mainContacto section.interlineado {
+    line-height: 30px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales {
+    display: flex;
+    margin-right: 40px;
+  }
+  main section.mainContacto section.interlineado div.iconosSociales .iconoContacto {
+    width: 15px;
+    margin-top: 5px;
+    margin-right: 11px;
+  }
+  main section.mainContacto iframe.mapa {
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 250px;
   }
 }
 

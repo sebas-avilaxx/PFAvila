@@ -12,9 +12,7 @@
         justify-content: center;
     }
     .carritoIniciar{
-        position: relative;
         display: flex;
-        right: 160px;
         width: 100%;
     }
     .crearCuenta{
@@ -25,10 +23,6 @@
         margin-left: 50px;
         font-size: 10px;
         text-justify: auto;
-    }
-    .carritoCompras{
-        position: relative;
-        left: 15px;
     }
     .sectionInsumos{
         display: flex;
@@ -47,5 +41,40 @@
         justify-content: center;
         text-align: center;
         margin-right: 10px;
+    }
+
+    main{
+        div.tituloAsesoramiento{
+            margin-left: 30px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        section.mainContacto{
+            display: flex;
+            margin-top: 60px;
+            margin-right: 80px;
+            margin-bottom: 160px;
+            margin-left: 20px;
+            font-size: 20px;
+            justify-content: space-around;
+            section.interlineado{
+                line-height: 30px;
+                div.iconosSociales{
+                    display: flex;
+                    margin-right: 40px;
+                    .iconoContacto{
+                        width: 15px;
+                        margin-top: 5px;
+                        margin-right: 11px;
+                    }
+                }
+            }
+        iframe.mapa{
+            margin-right: 50px;
+            margin-left: 10px;
+            width: 300px;
+        }    
+        }
+        
     }
 }
